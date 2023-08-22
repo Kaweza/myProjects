@@ -1,0 +1,35 @@
+.hero-section {
+  background-color: #3498db;
+  background-image: url("/MOEM/assets/moem.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  padding: 40px;
+  text-align: center;
+  padding-top: 100vh;
+}
+
+.hero-section h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: black;
+}
