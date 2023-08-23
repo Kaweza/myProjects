@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "prettier": "^3.0.2"
-  },
-  "dependencies": {
-    "nodemailer": "^6.9.4"
-  }
-}
