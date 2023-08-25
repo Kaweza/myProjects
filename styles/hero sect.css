@@ -1,0 +1,37 @@
+.hero-section {
+  background-color:white;
+  background-image: url("/myProjects/assets/moem.jpg");
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  color: black;
+  padding: 40px;
+  text-align: center;
+  padding-top: 80vh;
+}
+
+.hero-section h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  
+  bottom: 20px;
+  right: 20px;
+  transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+  background-color: black;
+}
+.btn.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
